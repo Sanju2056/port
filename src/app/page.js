@@ -1,5 +1,4 @@
 import Image from "next/image";
-import PortfolioImage from "../assets/portfolio.jpg";
 import ProfileImage from "../assets/profile.jpeg"
 
 const Home = () => {
@@ -7,7 +6,7 @@ const Home = () => {
     <div className="my-10 md:my-16 flex flex-col justify-center items-center gap-10 px-4 sm:px-6 md:px-10">
       {/* Text Section */}
       <div className="flex items-center flex-col gap-4 text-center">
-        <p className="font-semibold text-2xl sm:text-3xl">Swastika e-portfolio</p>
+        <p className="font-semibold text-2xl sm:text-3xl">Muna Oli e-portfolio</p>
 
         <p className="max-w-3xl text-base sm:text-lg text-gray-700">
           As a final-year Master of Health Service Management student, I bring a
@@ -38,7 +37,7 @@ const Home = () => {
             alt="profile"
             className="h-20 w-20 object-cover rounded-full"
           />
-          <p className="text-sm">Swastika Parajuli</p>
+          <p className="text-sm">Muna Oli</p>
         </div>
       </div>
     </div>

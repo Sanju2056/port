@@ -22,7 +22,7 @@ const Header = () => {
     <header className="bg-white text-black shadow-md sticky top-0 z-50">
       {/* Desktop Navbar */}
       <div className="hidden container lg:flex items-center justify-between py-8 px-6">
-        <Link href={"/"} className="text-2xl font-bold text-blue-600">Swastika Parajuli</Link>
+        <Link href={"/"} className="text-2xl font-bold text-blue-600">Muna Oli </Link>
         <div className="flex gap-6 text-base">
           {NavBarData.map((item, index) => (
             <Link key={index} href={item.link} className="hover:text-blue-500 font-medium">
@@ -34,7 +34,7 @@ const Header = () => {
 
       {/* Mobile Navbar */}
       <div className="lg:hidden container flex items-center justify-between py-4 px-6">
-        <Link href={"/"} className="text-xl font-semibold text-blue-600">Swastika Parajuli</Link>
+        <Link href={"/"} className="text-xl font-semibold text-blue-600">Muna Oli </Link>
         <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="text-black focus:outline-none">
           {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
