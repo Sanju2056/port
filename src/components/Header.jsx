@@ -5,8 +5,8 @@ import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const NavBarData = [
-  { title: "e-Portfolio", link: "/" },
-  { title: "Introduction Video", link: "/introduction-video" },
+  // { title: "e-Portfolio", link: "/" },
+  // { title: "Introduction Video", link: "/introduction-video" },
   { title: "Capability Statement", link: "/capability-statement" },
   { title: "Resume", link: "/resume" },
   { title: "Literature Review", link: "/literature-review" },
@@ -34,7 +34,7 @@ const Header = () => {
 
       {/* Mobile Navbar */}
       <div className="lg:hidden container flex items-center justify-between py-4 px-6">
-        <div className="text-xl font-bold text-blue-600">Swastika Parajuli</div>
+        <Link href={"/"} className="text-xl font-semibold text-blue-600">Swastika Parajuli</Link>
         <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="text-black focus:outline-none">
           {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
