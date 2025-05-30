@@ -5,8 +5,7 @@ import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const NavBarData = [
-  // { title: "e-Portfolio", link: "/" },
-  // { title: "Introduction Video", link: "/introduction-video" },
+
   { title: "Capability Statement", link: "/capability-statement" },
   { title: "Resume", link: "/resume" },
   { title: "Literature Review", link: "/literature-review" },
@@ -20,7 +19,7 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white text-black shadow-md sticky top-0 z-50">
+    <header className="bg-white  text-black shadow-md sticky top-0 z-50">
       {/* Desktop Navbar */}
       <div className="hidden container lg:flex items-center justify-between py-8 px-6">
         <Link href={"/"} className="text-2xl font-bold text-blue-600">Muna Oli </Link>

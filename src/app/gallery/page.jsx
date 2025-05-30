@@ -1,6 +1,6 @@
 import Gallery from '../../components/Gallery';
 
-const GalleryPage = () => {
+const page = () => {
   return (
     <div className="container">
       <Gallery />
@@ -8,4 +8,4 @@ const GalleryPage = () => {
   );
 };
 
-export default GalleryPage;
+export default page;

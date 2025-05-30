@@ -37,7 +37,7 @@ const documents = [
 
 const Training = () => {
   return (
-    <div className="px-4 my-10 md:my-16 max-w-6xl mx-auto">
+    <div className="px-4 my-10 md:my-16 max-w-6xl mx-auto ">
       <h1 className="text-3xl font-bold text-center mb-6">Training</h1>
       <p className="text-center text-gray-600 max-w-xl mx-auto mb-12">
         The following is my training, detailing my experience, skills and

@@ -8,41 +8,42 @@ const Artefacts = () => {
       link: "/files/Health Implementation Plan- PUBH7030 Health Systems Planning and Evaluation.pdf",
       file: "/files/Health Implementation Plan- PUBH7030 Health Systems Planning and Evaluation.pdf",
     },
-    {
+     {
       title: "Project 2",
       projectName:
-        "Project Proposal for Translational Research Grants Scheme - Expression of Interest",
-      linkLabel: "Project 1",
-      link: "/files/Project Proposal - EOI  (HLTH7027).pdf",
-      file: "/files/Project Proposal - EOI  (HLTH7027).pdf",
+        "“Online Game Addiction Among Adolescents ”",
+      linkLabel: "Project 2",
+      link: "/files/RESEARCH FINAL REPORT.pdf",
+      file:"/files/RESEARCH FINAL REPORT.pdf",
     },
     {
       title: "Project 3",
       projectName:
-        "ONLINE GAME ADDICTION AMONG ADOLESCENTS",
-      linkLabel: "Project 3",
-      link: "/files/RESEARCH FINAL REPORT.pdf",
-      file:"/files/RESEARCH FINAL REPORT.pdf",
+        "“Project Proposal for Translational Research Grants Scheme - Expression of Interest”",
+      linkLabel: "Project 1",
+      link: "/files/Project Proposal - EOI  (HLTH7027).pdf",
+      file: "/files/Project Proposal - EOI  (HLTH7027).pdf",
     },
+   
   ];
   const recommendation = [
     {
       // title: "Inselspital Recommendation ",
-      projectName: "Inselspital Recommendation Letter ",
+      projectName: "“Inselspital Recommendation Letter ”",
       linkLabel: "Preview",
       link: "/files/recomendation.pdf",
       file: "/files/recomendation.pdf",
     },
      {
       // title: "Manavsewa Ashram",
-      projectName: "Manavsewa Ashram Certificate",
+      projectName: "“Manavsewa Ashram Certificate”",
       linkLabel: "Preview",
       link: "/files/Manavsewa%20Ashram%20.pdf",
       file: "/files/Manavsewa%20Ashram%20.pdf",
     },
     {
       // title: "Department of Cardiology University Hospital Bern 2",
-      projectName: "Department of Cardiology University Hospital Bern ",
+      projectName: "“Department of Cardiology University Hospital Bern” ",
       linkLabel: "Preview",
       link: "/files/recomendation2.pdf",
       file: "/files/recomendation2.pdf",

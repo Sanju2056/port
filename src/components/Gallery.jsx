@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import { a, b, c, d, e } from "../assets"; // Adjust the import path as necessary
 
@@ -15,7 +14,7 @@ const images = [
 
 const Gallery = () => {
   return (
-    <div className="my-10 md:my-16  px-4">
+    <div className="my-10 md:my-16  ">
       <div className="mb-10 text-center">
         <h1 className="text-3xl sm:text-4xl font-bold mb-3 font-cardo">
           Gallery
