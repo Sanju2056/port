@@ -16,6 +16,14 @@ const Artefacts = () => {
       link: "/files/Project Proposal - EOI  (HLTH7027).pdf",
       file: "/files/Project Proposal - EOI  (HLTH7027).pdf",
     },
+    {
+      title: "Project 3",
+      projectName:
+        "ONLINE GAME ADDICTION AMONG ADOLESCENTS",
+      linkLabel: "Project 3",
+      link: "/files/RESEARCH FINAL REPORT.pdf",
+      file:"/files/RESEARCH FINAL REPORT.pdf",
+    },
   ];
   const recommendation = [
     {
