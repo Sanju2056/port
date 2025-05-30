@@ -17,7 +17,7 @@ const Home = () => {
       </div>
 
       {/* Image Section */}
-      <div className="bg-red-500 rounded-lg w-full max-w-4xl overflow-hidden">
+      <div className=" rounded-lg w-full max-w-4xl overflow-hidden">
         <Image
           src={ProfileImage}
           alt="portfolio"
