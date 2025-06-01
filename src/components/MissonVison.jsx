@@ -5,11 +5,11 @@ import { MdGroups2 } from "react-icons/md";
 
 const MissionVisionObjectives = () => {
   return (
-    <section className="w-full max-w-6xl mx-auto flex flex-col  gap-8 md:gap-12 py-12 p">
+    <section className="w-full max-w-6xl mx-auto flex flex-col  gap-8 md:gap-6 py-12 p">
       {/* Mission & Vision Cards */}
-      <div className="flex flex-col max-w-6xl lg:flex-row gap-6 px-6 md:px-10 md:gap-12 items-start">
+      <div className="grid grid-cols-2 max-w-6xl lg:flex-row gap-6  md:gap-12 items-start">
         <div className="flex-1 flex flex-col gap-6">
-          <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl shadow p-6 min-h-[180px]">
+          <div className="bg-gradient-to-br from-blue-200 to-purple-50 rounded-xl shadow p-6 min-h-[180px]">
             <h3 className="text-blue-800 font-bold text-lg mb-2 tracking-wide">
               MISSION
             </h3>
@@ -24,7 +24,7 @@ const MissionVisionObjectives = () => {
               advocates, and acts for the wellbeing of every patient.
             </span>
           </div>
-          <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl shadow p-6 min-h-[180px]">
+          <div className="bg-gradient-to-br from-red-200 to-purple-50 rounded-xl shadow p-6 min-h-[180px]">
             <h3 className="text-blue-800 font-bold text-lg mb-2 tracking-wide">
               VISION
             </h3>
@@ -41,8 +41,8 @@ const MissionVisionObjectives = () => {
           </div>
         </div>
         {/* Objectives Card */}
-        <div className="flex-1 flex flex-col gap-6 justify-between">
-          <div className="bg-gradient-to-br from-green-50 to-blue-50 rounded-xl shadow p-6 min-h-[180px] flex flex-col">
+        <div className=" h-full flex flex-col gap-6 justify-between">
+          <div className="bg-gradient-to-br from-green-50 to-blue-50 rounded-xl shadow p-6 h-full flex flex-col">
             <h3 className="text-green-800 font-bold text-lg mb-2 tracking-wide">
               OBJECTIVES
             </h3>
@@ -74,8 +74,8 @@ const MissionVisionObjectives = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white rounded-xl shadow mx-6 p-6 mt-4">
-        <h3 className="text-blue-800 font-bold text-lg mb-2 tracking-wide">
+      <div className="bg-gradient-to-br max-w-6xl from-blue-200 to-purple-50  rounded-xl shadow  p-6 md:px-10 mt-4">
+        <h3 className="text-blue-800 font-bold text-lg mb-2 ">
           Where This Leads
         </h3>
         <p className="text-gray-600 text-base">

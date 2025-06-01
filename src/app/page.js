@@ -57,13 +57,13 @@ const Home = () => {
       </div>
       {/* Video Section  */}
       <div className="w-full flex flex-col items-center justify-center py-10">
-        <video
+        {/* <video
           controls
           className=" max-w-6xl h-[250px] px-6  md:h-[400px] xl:h-[600px] rounded-lg shadow-lg"
         >
           <source src="/video/1.webm" type="video/webm" />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
         <p className="max-w-5xl text-center text-[#2e2e2e] lg:text-lg px-10 xl:px-0 pt-10">
           Muna Oli, RN, is a committed health professional with long-standing
           clinical experience in critical care environments, as well as
