@@ -3,9 +3,9 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
+import Head from "next/head";
 
 const NavBarData = [
-
   // { title: "Capability Statement", link: "/capability-statement" },
   // { title: "Resume", link: "/resume" },
   { title: "Literature Review", link: "/literature-review" },
@@ -13,21 +13,40 @@ const NavBarData = [
   // { title: "Training", link: "/training" },
   { title: "Work Sample", link: "/work-sample" },
   { title: "Contact", link: "/contact" },
-    { title: "Gallery", link: "/gallery" },
-
+  { title: "Gallery", link: "/gallery" },
 ];
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white  text-black shadow-md sticky top-0 z-50">
+    <>
+    <Head>
+        {/* Import Google Font: Pacifico */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
+      <header className="bg-white  text-black shadow-md sticky top-0 z-50">
+      
       {/* Desktop Navbar */}
       <div className="hidden container lg:flex items-center justify-between py-8 px-6">
-        <Link href={"/"} className="text-2xl font-bold text-blue-600">Muna Oli </Link>
+        <Link
+          href={"/"}
+          className="text-4xl font-semibold italic  text-[#2e2e2e] font-cardo"
+          style={{ fontFamily: "Pacifico, cursive" }}
+        >
+          Muna Oli
+        </Link>
+        {/* <Link href={"/"} className="text-2xl font-bold text-blue-600">Muna Oli </Link> */}
         <div className="flex gap-6 text-base">
           {NavBarData.map((item, index) => (
-            <Link key={index} href={item.link} className="hover:text-blue-500 font-medium">
+            <Link
+              key={index}
+              href={item.link}
+              className="hover:text-blue-500 font-medium text-lg"
+            >
               {item.title}
             </Link>
           ))}
@@ -36,8 +55,13 @@ const Header = () => {
 
       {/* Mobile Navbar */}
       <div className="lg:hidden container flex items-center justify-between py-4 px-6">
-        <Link href={"/"} className="text-xl font-semibold text-blue-600">Muna Oli </Link>
-        <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="text-black focus:outline-none">
+        <Link href={"/"} className="text-xl font-semibold text-blue-600">
+          Muna Oli{" "}
+        </Link>
+        <button
+          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          className="text-black focus:outline-none"
+        >
           {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
@@ -79,6 +103,8 @@ const Header = () => {
         />
       )}
     </header>
+    </>
+    
   );
 };
 
