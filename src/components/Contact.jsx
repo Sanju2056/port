@@ -19,14 +19,24 @@ const Contact = () => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setSubmitted(true);
-    setForm({ name: "", email: "", subject: "", message: "" });
+    const formData = new FormData(e.target);
+    const res = await fetch("https://formspree.io/f/mwpbegwk", {
+      method: "POST",
+      body: formData,
+      headers: {
+        Accept: "application/json",
+      },
+    });
+    if (res.ok) {
+      setSubmitted(true);
+      e.target.reset();
+    }
   };
 
   return (
-    <div className="container   flex flex-col justify-center items-center py-10 px-5 md:px-10 lg:px-20">
+    <div className="container   flex flex-col justify-center items-center py-10 lg:py-20 px-5 md:px-10 lg:px-20">
               {/* <Gallery /> */}
 
       <div className="w-full    rounded-3xl   flex flex-col gap-8">

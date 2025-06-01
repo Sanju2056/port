@@ -14,7 +14,7 @@ const images = [
 
 const Gallery = () => {
   return (
-    <div className="py-5 md:py-10 container w-full  flex justify-center items-center  ">
+    <div className="py-5 md:py-10 lg:py-20 container w-full  flex justify-center items-center  ">
       <div className="w-full">
         <h1 className="  text-xl md:text-4xl font-semibold mb-5 md:mb-10 font-cardo">
           Gallery

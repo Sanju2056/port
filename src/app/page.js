@@ -45,8 +45,9 @@ const Home = () => {
 
       {/* Quote Section */}
       <div className="bg-black text-white w-full py-20 px-6 sm:px-10 md:px-20 xl:px-36 flex flex-col items-center gap-10 text-center">
-        <p className="text-xl sm:text-2xl md:text-3xl max-w-4xl">
-          “We cannot lower the mountain, therefore we must elevate ourself.”
+        <p className="text-xl sm:text-2xl md:text-3xl max-w-6xl">
+          “In a system that cannot always change overnight, I choose to be the
+          part that evolves—with knowledge, compassion, and purpose.”
         </p>
 
         <div className="flex flex-col items-center gap-4">
@@ -55,10 +56,9 @@ const Home = () => {
             alt="profile"
             className="h-20 w-20 object-cover rounded-full"
           />
-          <p className="text-sm">Muna Oli</p>
+          <p className="text-sm">- Muna Oli</p>
         </div>
       </div>
-     
     </div>
   );
 };
