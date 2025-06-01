@@ -2,9 +2,9 @@ import React from "react";
 
 const CapabilityStatement = () => {
   return (
-    <div className="my-16  flex flex-col  justify-center items-center text-center gap-10 px-4 sm:px-6 md:px-10">
-      <p className="font-semibold text-2xl sm:text-3xl">Capability statement</p>
-      <p className=" max-w-4xl text-base sm:text-lg text-gray-700">
+    <div className="  flex flex-col gap-5">
+      <p className="font-semibold text-2xl sm:text-3xl text-[#2e2e2e]">Capability statement</p>
+      <p className="  text-base sm:text-lg text-[#6f6f6f]">
         Having clinical skills and a Master of Health Service Management, I am
         actively looking for a Health Promotion Officer role with NSW Health. My
         training is a combination of direct nursing exposure in Nepal—like
@@ -18,14 +18,14 @@ const CapabilityStatement = () => {
         intensity of research, and cross-cultural ability to create NSW Health's
         preventive health agenda.
       </p>
-      <div className="flex  max-w-3xl   gap-5">
-        <div className="flex flex-col sm:flex-row gap-4 ">
+      <div className="flex     gap-5">
+        <div className="flex flex-row gap-4 ">
           {/* Preview button opens PDF in new tab */}
           <a
             href="/files/A Capability Statement 2 (Muna Oli).pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-700 underline  py-2"
+                className="text-blue-700 underline text-semibold py-2"
           >
             Capability Statement
           </a>
@@ -34,7 +34,7 @@ const CapabilityStatement = () => {
           <a
             href="/files/A Capability Statement 2 (Muna Oli).pdf"
             download
-            className="bg-black text-white px-8 flex items-center justify-center py-1.5 rounded hover:bg-gray-800 transition"
+                className="bg-black text-white px-8 text-semibold flex items-center justify-center py-1.5 rounded hover:bg-gray-800 transition"
           >
             Download
           </a>

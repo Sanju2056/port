@@ -6,13 +6,15 @@ import { Menu, X } from "lucide-react";
 
 const NavBarData = [
 
-  { title: "Capability Statement", link: "/capability-statement" },
-  { title: "Resume", link: "/resume" },
+  // { title: "Capability Statement", link: "/capability-statement" },
+  // { title: "Resume", link: "/resume" },
   { title: "Literature Review", link: "/literature-review" },
   { title: "Artefacts", link: "/artefacts" },
-  { title: "Training", link: "/training" },
+  // { title: "Training", link: "/training" },
   { title: "Work Sample", link: "/work-sample" },
-  { title: "Gallery", link: "/gallery" },
+  { title: "Contact", link: "/contact" },
+    { title: "Gallery", link: "/gallery" },
+
 ];
 
 const Header = () => {

@@ -1,29 +1,47 @@
 import Image from "next/image";
-import ProfileImage from "../assets/profile.jpeg"
+import ProfileImage from "../assets/profileeee.png";
+import FooterContactForm from "../components/ContactUs";
+
+// import CapabilityStatement from "../components/CapabilityStatement";
+// import Resume from "../components/Resume";
+// import Artefacts from "../components/Artefacts";
+// import LiteratureReview from "../components/LiteratureReview";
+// import Gallery from "../components/Gallery";
+// import Training from "../components/Training";
 
 const Home = () => {
   return (
-    <div className="my-10 md:my-16 flex flex-col justify-center items-center gap-10 px-4 sm:px-6 md:px-10">
+    <div className=" flex flex-col justify-center items-center ">
       {/* Text Section */}
-      <div className="flex items-center flex-col gap-4 text-center">
-        <p className="font-semibold text-2xl sm:text-3xl">Muna Oli e-portfolio</p>
-
-        <p className="max-w-3xl text-base sm:text-lg text-gray-700">
-          As a final-year Master of Health Service Management student, I bring a
-          comprehensive background in nursing and healthcare administration,
-          motivated by a genuine passion for serving others. Helping others and
-          creating positive changes in their lives is truly fulfilling for me.
-        </p>
+      <div className="flex flex-col lg:flex-row gap-10 xl:gap-20 py-20 px-8 md:px-20">
+        <div className=" rounded-lg  overflow-hidden   ">
+          <Image
+            src={ProfileImage}
+            alt="portfolio"
+            className="w-[350px] h-[350px]  object-cover"
+          />
+        </div>
+        <div className="flex justify-center flex-col gap-4  ">
+          {/* <div className=" rounded-lg  overflow-hidden   ">
+            <Image
+              src={BackgroundImage}
+              alt="background"
+              className="w-[350px] h-[350px]  object-cover"
+            />
+          </div> */}
+          <p className="font-semibold  text-xl sm:text-4xl">Hey there,</p>
+          <p className="font-semibold  text-xl sm:text-4xl">I'm Muna Oli</p>
+          <p className="max-w-3xl text-base sm:text-lg text-gray-700">
+            As a final-year Master of Health Service Management student, I bring
+            a comprehensive background in nursing and healthcare administration,
+            motivated by a genuine passion for serving others. Helping others
+            and creating positive changes in their lives is truly fulfilling for
+            me.
+          </p>
+        </div>
       </div>
 
       {/* Image Section */}
-      <div className=" rounded-lg w-full max-w-4xl overflow-hidden">
-        <Image
-          src={ProfileImage}
-          alt="portfolio"
-          className="w-full h-[900px] object-cover"
-        />
-      </div>
 
       {/* Quote Section */}
       <div className="bg-black text-white w-full py-20 px-6 sm:px-10 md:px-20 xl:px-36 flex flex-col items-center gap-10 text-center">
@@ -40,6 +58,7 @@ const Home = () => {
           <p className="text-sm">Muna Oli</p>
         </div>
       </div>
+     
     </div>
   );
 };

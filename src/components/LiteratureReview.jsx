@@ -1,4 +1,5 @@
 import React from "react";
+import { FiDownload, FiExternalLink } from "react-icons/fi";
 
 const reviews = [
   {
@@ -55,43 +56,58 @@ const reviews = [
 
 const LiteratureReview = () => {
   return (
-    <section className="py-12 px-4 sm:px-6 lg:px-12">
-      <div className="text-center mb-12 max-w-3xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">
-          Literature Reviews
+    <div className="py-20 flex flex-col gap-14   container ">
+      {" "}
+      <div className="text-center mb-5 max-w-3xl mx-auto">
+        <h2 className="text-4xl font-bold text-[#2e2e2e] mb-4 font-cardo">
+          Literature Review
         </h2>
-        <p className="text-gray-600 text-base sm:text-lg">
+        <p className="text-[#6f6f6f] px-6 text-sm sm:text-lg font-cardo">
           These reviews deepened my clinical insight, enhanced critical
-          thinking, and guided my approach to patient care and healthcare
-          decision-making.
+          thinking, and guided my approach to patient care and decision-making.
         </p>
       </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 gap-5 md:gap-14">
         {reviews.map((review) => (
           <div
             key={review.id}
-            className="bg-white border border-gray-200 rounded-xl shadow hover:shadow-md transition-shadow p-6"
+            className="  p-6 flex flex-col justify-between h-full"
           >
-            <h3 className="text-lg font-semibold text-indigo-700 mb-2">
-              {review.id}. {review.title}
-            </h3>
-            <p className="text-gray-700 mb-3 text-sm">{review.description}</p>
-            <p className="text-gray-500 italic text-xs mb-3">
+            <div className="text-lg md:text-2xl font-semibold pb-2  text-[#2e2e2e] font-cardo">
+              {review.title}
+            </div>
+            <hr className=" mb-4" />
+            <p className="text-[#6f6f6f] mb-4 font-cardo">
+              {review.description}
+            </p>
+
+            <p className="text-gray-500 italic  mb-4 font-cardo">
               {review.citation}
             </p>
-            <a
-              href={review.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm font-medium text-blue-600 hover:underline"
-            >
-              View full paper →
-            </a>
+
+            <div className="flex items-center space-x-4  font-medium">
+              <a
+                href={review.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-blue-600 hover:underline"
+              >
+                <FiExternalLink className="mr-1" />
+                View Article
+              </a>
+              <a
+                href={review.file}
+                download
+                className="flex items-center text-green-600 hover:underline"
+              >
+                <FiDownload className="mr-1" />
+                Download PDF
+              </a>
+            </div>
           </div>
         ))}
       </div>
-    </section>
+    </div>
   );
 };
 

@@ -3,7 +3,7 @@ import Resume from '../../components/Resume'
 
 const page = () => {
   return (
-    <div className='container'><Resume/></div>
+    <div className=''><Resume/></div>
   )
 }
 

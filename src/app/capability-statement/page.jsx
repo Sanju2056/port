@@ -2,7 +2,7 @@ import React from 'react'
 import CapabilityStatement from '../../components/CapabilityStatement'
 const page = () => {
   return (
-    <div className='container'><CapabilityStatement/></div>
+    <div className=''><CapabilityStatement/></div>
   )
 }
 

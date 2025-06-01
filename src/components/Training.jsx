@@ -37,12 +37,12 @@ const documents = [
 
 const Training = () => {
   return (
-    <div className="px-4 my-10 md:my-16 max-w-6xl mx-auto ">
-      <h1 className="text-3xl font-bold text-center mb-6">Training</h1>
-      <p className="text-center text-gray-600 max-w-xl mx-auto mb-12">
+    <div className="">
+      {/* <h1 className="text-3xl font-bold text-center mb-6">Training</h1>
+      <p className="text-center text-gray-600 text-sm sm:text-lg  max-w-xl mx-auto mb-12">
         The following is my training, detailing my experience, skills and
         qualifications in nursing and health service management.
-      </p>
+      </p> */}
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         {documents.map((doc, index) => (
@@ -69,13 +69,13 @@ const Training = () => {
                 Download
               </a>
             </div> */}
-            <div className="flex justify-center items-center gap-4 mt-4">
+            <div className="flex justify-center items-center gap-6 mt-4">
               {/* Preview button opens PDF in new tab */}
               <a
                 href={doc.file}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-blue-600 text-white px-6 font-medium py-2 rounded-md hover:bg-blue-700 transition"
+                className="text-blue-700 underline text-semibold py-2"
               >
                 Preview
               </a>
@@ -84,7 +84,7 @@ const Training = () => {
               <a
                 href={doc.file}
                 download
-                className="bg-green-600 text-white font-medium px-6 py-2 rounded-md hover:bg-green-700 transition"
+                className="bg-black text-white px-8 text-semibold flex items-center justify-center py-1.5 rounded hover:bg-gray-800 transition"
               >
                 Download
               </a>
