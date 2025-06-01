@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="bg-white w-full flex flex-col items-center justify-center md:pt-10 pb-0">
       {/* Top Section */}
-      <div className="w-full max-w-6xl flex flex-col md:flex-row items-center justify-between gap-8 md:gap-0 px-4 md:px-10 lg:px-10 pt-10 lg:pt-20 pb-8 border-b border-gray-200">
+      <div className="w-full max-w-6xl flex flex-col md:flex-row items-center justify-between gap-8 md:gap-0 px-4 md:px-10 lg:px-10 pt-10 lg:pt-20 pb-8 ">
         {/* Left: Text */}
         <div className="flex-1 flex flex-col gap-2 px-6 md:px-0 md:gap-4 items-start md:items-start">
           <div>
@@ -56,7 +56,7 @@ const Home = () => {
         </div>
       </div>
       {/* Video Section  */}
-      <div className="w-full flex flex-col items-center justify-center py-10">
+      <div className="w-full flex flex-col items-center justify-center pb-10">
         {/* <video
           controls
           className=" max-w-6xl h-[250px] px-6  md:h-[400px] xl:h-[600px] rounded-lg shadow-lg"
