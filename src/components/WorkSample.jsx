@@ -23,29 +23,29 @@ export const workSamples = [
     ],
     link:"/files/nurse.jpeg"
   },
-  {
-    title: "Assistant in Nursing",
-    organization: "Mark Moran Little Bay",
-    location: "Little Bay, NSW",
-    date: "May 2023 – Present",
-    responsibilities: [
-      "Provided bedside care: bathing, grooming, feeding, toileting, and mobility assistance.",
-      "Offered emotional and physical support during daily routines.",
-      "Maintained detailed patient records and reported health changes to supervisors.",
-      "Fostered meaningful patient relationships through empathetic communication.",
-    ],
-  },
-  {
-    title: "Assistant in Nursing",
-    organization: "Anglicare Dorothy Boyt House",
-    location: "Malabar, NSW",
-    date: "June 2024 – Present",
-    responsibilities: [
-      "Delivered personal care including hygiene, grooming, dressing, and feeding.",
-      "Supported therapy plans for dementia and behavioral intervention.",
-      "Promoted high-quality customer service and compassionate communication.",
-    ],
-  },
+  // {
+  //   title: "Assistant in Nursing",
+  //   organization: "Mark Moran Little Bay",
+  //   location: "Little Bay, NSW",
+  //   date: "May 2023 – Present",
+  //   responsibilities: [
+  //     "Provided bedside care: bathing, grooming, feeding, toileting, and mobility assistance.",
+  //     "Offered emotional and physical support during daily routines.",
+  //     "Maintained detailed patient records and reported health changes to supervisors.",
+  //     "Fostered meaningful patient relationships through empathetic communication.",
+  //   ],
+  // },
+  // {
+  //   title: "Assistant in Nursing",
+  //   organization: "Anglicare Dorothy Boyt House",
+  //   location: "Malabar, NSW",
+  //   date: "June 2024 – Present",
+  //   responsibilities: [
+  //     "Delivered personal care including hygiene, grooming, dressing, and feeding.",
+  //     "Supported therapy plans for dementia and behavioral intervention.",
+  //     "Promoted high-quality customer service and compassionate communication.",
+  //   ],
+  // },
   {
     title: "ICU Nurse",
     organization: "Rapti Lifecare Hospital Pvt Ltd",

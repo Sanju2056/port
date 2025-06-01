@@ -2,9 +2,9 @@ import React from "react";
 
 const CapabilityStatement = () => {
   return (
-    <div className="  flex flex-col gap-5">
-      <p className="font-semibold text-2xl sm:text-3xl text-[#2e2e2e]">Capability statement</p>
-      <p className="  text-base sm:text-lg text-[#6f6f6f]">
+    <div className="py-10 lg:py-20 text-center container  flex items-center flex-col gap-8">
+      <p className="font-semibold text-3xl md:text-4xl text-[#2e2e2e]">Capability statement</p>
+      <p className="  text-base max-w-6xl sm:text-lg text-[#6f6f6f]">
         Having clinical skills and a Master of Health Service Management, I am
         actively looking for a Health Promotion Officer role with NSW Health. My
         training is a combination of direct nursing exposure in Nepal—like

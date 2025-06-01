@@ -64,8 +64,8 @@ const Artefacts = () => {
           concluding with relevant certificates.”
         </p>
       </div>
-      <Resume />
-      <CapabilityStatement />
+      {/* <Resume />
+      <CapabilityStatement /> */}
       <div>
         <div className="flex flex-col">
           <h1 className="text-3xl sm:text-3xl font-semibold mb-3 text-[#2e2e2e]">

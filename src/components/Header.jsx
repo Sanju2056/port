@@ -6,8 +6,8 @@ import { Menu, X } from "lucide-react";
 import Head from "next/head";
 
 const NavBarData = [
-  // { title: "Capability Statement", link: "/capability-statement" },
-  // { title: "Resume", link: "/resume" },
+  { title: "Capability Statement", link: "/capability-statement" },
+  { title: "Resume", link: "/resume" },
   { title: "Literature Review", link: "/literature-review" },
   { title: "Artefacts", link: "/artefacts" },
   // { title: "Training", link: "/training" },
