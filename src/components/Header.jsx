@@ -11,7 +11,7 @@ const NavBarData = [
   { title: "Literature Review", link: "/literature-review" },
   { title: "Artefacts", link: "/artefacts" },
   // { title: "Training", link: "/training" },
-  { title: "Work Sample", link: "/work-sample" },
+  // { title: "Work Sample", link: "/work-sample" },
   { title: "Contact", link: "/contact" },
   { title: "Gallery", link: "/gallery" },
 ];
@@ -34,7 +34,7 @@ const Header = () => {
       <div className="hidden container lg:flex items-center justify-between py-8 px-6">
         <Link
           href={"/"}
-          className="text-4xl font-semibold italic  text-[#2e2e2e] font-cardo"
+          className="text-2xl xl:text-4xl font-semibold italic  text-[#2e2e2e] font-cardo"
           style={{ fontFamily: "Pacifico, cursive" }}
         >
           Muna Oli
@@ -45,7 +45,7 @@ const Header = () => {
             <Link
               key={index}
               href={item.link}
-              className="hover:text-blue-500 font-medium text-lg"
+              className="hover:text-blue-500 font-medium text-base xl:text-lg"
             >
               {item.title}
             </Link>
@@ -55,7 +55,8 @@ const Header = () => {
 
       {/* Mobile Navbar */}
       <div className="lg:hidden container flex items-center justify-between py-4 px-6">
-        <Link href={"/"} className="text-xl font-semibold text-blue-600">
+        <Link href={"/"} className="text-xl font-semibold italic  text-[#2e2e2e] font-cardo"
+          style={{ fontFamily: "Pacifico, cursive" }}>
           Muna Oli{" "}
         </Link>
         <button

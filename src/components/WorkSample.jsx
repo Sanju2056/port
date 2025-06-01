@@ -11,17 +11,17 @@ export const workSamples = [
     role: "ICU Nurse",
     date: "April 2022 – May 2023",
     responsibilities: [
-      "Utilized critical thinking to monitor and assess changes in patient conditions, intervening appropriately.",
-      "Reported abnormal findings and changes in patients' physical, mental, and emotional health.",
-      "Transported patients for procedures and ensured proper coordination across departments.",
-      "Maintained optimal stock levels in triage and treatment rooms.",
-      "Observed patient care outcomes to support quality improvement.",
-      "Administered vaccinations for measles, pneumonia, influenza, and other illnesses.",
-      "Educated families on patient care and post-discharge support.",
-      "Managed patients recovering from surgeries and critical illnesses.",
-      "Worked alongside senior nurses, continuously learning advanced procedures.",
+      "Applied critical thinking abilities to constantly observe and evaluate patients' physical, mental, and emotional condition, intervening promptly when circumstances altered.",
+      "Communicated abnormal findings efficiently to multidisciplinary teams to facilitate prompt clinical decisions.",
+      "Organised patient transport for procedures, facilitating smooth communication among departments.",
+      "Maintained ideal levels of inventory in treatment and triage areas to facilitate continuous care provision.",
+      "Evaluated patient outcomes in order to facilitate continuous quality improvement activities.",
+      "Immunisations were given, including measles, pneumonia, and flu, hence promoting preventive health measures.",
+      "Provided ample education and discharge teaching to patients and families, enhancing home care and recuperation.",
+      "Managed postoperative and critically ill patients with scrupulous attention.",
+      "Worked in liaison with senior nursing staff to achieve increased clinical competencies and knowledge.",
     ],
-    link:"/files/nurse.jpeg"
+    link: "/files/nurse.jpeg",
   },
   // {
   //   title: "Assistant in Nursing",
@@ -52,11 +52,11 @@ export const workSamples = [
     location: "Dang, Nepal",
     date: "April 2023 – October 2023",
     responsibilities: [
-      "Collaborated with interdisciplinary teams to develop personalized care plans.",
-      "Monitored patient conditions and administered appropriate treatments.",
-      "Offered emotional and psychological support to patients and families.",
+      "Collaborated in close association with cross-functional teams to develop and execute personalised patient care plans.",
+      "Monitored and documented patient condition, administering treatments as per clinical protocol.",
+      "Provided compassionate emotional and psychological support to relatives and patients during periods of critical care.",
     ],
-    link:"/files/rapti.jpeg"
+    link: "/files/rapti.jpeg",
   },
   {
     title: "BSc Nursing Staff",
@@ -64,12 +64,11 @@ export const workSamples = [
     location: "Dang, Nepal",
     date: "April 2022 – April 2023",
     responsibilities: [
-      "Served in the Emergency Department and worked as a school nurse under a research program.",
-      "Participated in the Rheumatic Heart Disease Control Project with the University of Bern.",
-      "Organized health workshops, medical screenings, and community awareness programs.",
+      "Worked as a school nurse and in the Emergency Department participating in community health programs.",
+      "Participated in the Rheumatic Heart Disease Control Project in liaison with the University of Bern.",
+      "Planned and implemented health workshops, medical screening, and public sensitisation campaigns to ensure the community remained healthy.",
     ],
-        link:"/files/tulsi.jpeg"
-
+    link: "/files/tulsi.jpeg",
   },
   {
     title: "ICU Nurse",
@@ -77,10 +76,10 @@ export const workSamples = [
     location: "Dang, Nepal",
     date: "September 2021 – March 2022",
     responsibilities: [
-      "Delivered critical care including life support management, monitoring, and emergency intervention.",
-      "Analyzed lab reports and treatment outcomes to adapt care plans accordingly.",
+      "Provided critical care including life support, monitoring of patients, and emergency intervention.",
+      "Evaluated laboratory results and response to therapy to modify care plans for best patient outcomes.",
     ],
-    link: "/files/buddha.jpeg"
+    link: "/files/buddha.jpeg",
   },
   // {
   //   title: "Professional Experience – Australia",
@@ -108,7 +107,7 @@ export const workSamples = [
 
 const WorkSample = () => {
   return (
-    <section className="px-6 py-12 md:px-20 bg-white">
+    <section className="  bg-white">
       <h2 className="text-3xl sm:text-4xl font-bold mb-10 text-center text-[#2e2e2e] font-cardo">
         Work Samples
       </h2>
@@ -172,7 +171,7 @@ const WorkSample = () => {
             <div className="flex flex-row gap-4 mt-3 items-center">
               {/* Preview button opens PDF in new tab */}
               <a
-                href={sample.link }
+                href={sample.link}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-700 underline text-semibold py-2"
@@ -182,7 +181,7 @@ const WorkSample = () => {
 
               {/* Download button */}
               <a
-                href={sample.link }
+                href={sample.link}
                 download
                 className="bg-black text-white px-8 text-semibold flex items-center justify-center py-1.5 rounded hover:bg-gray-800 transition"
               >

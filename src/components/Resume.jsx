@@ -3,11 +3,19 @@ import React from "react";
 const Resume = () => {
   return (
     <div className="flex container py-10 lg:py-20 flex-col justify-center text-center  items-center gap-4">
-      <p className="font-semibold text-3xl text-[#2e2e2e] md:text-4xl">Resume</p>
+      <p className="font-semibold text-3xl text-[#2e2e2e] md:text-4xl">
+        Resume
+      </p>
 
       <p className=" text-base sm:text-lg  text-[#6f6f6f]">
-        Below is my resume, outlining my qualifications and experience in
-        nursing and health service management.
+        In addition to my educational credentials and clinical experience, my
+        curriculum vitae gives an account of specialised training and
+        certification relevant to modern healthcare requirements. These
+        certificates attest to my dedication towards continuing professional
+        development and a commitment to the provision of safe, ethical, and
+        patient-centered care. They supplement my practice experience and
+        further strengthen my competence in working across a variety of
+        healthcare environments.
       </p>
 
       {/* Preview & Download Buttons */}
@@ -17,7 +25,7 @@ const Resume = () => {
           href="/files/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
-                className="text-blue-700 underline text-semibold py-2"
+          className="text-blue-700 underline text-semibold py-2"
         >
           Preview
         </a>
@@ -26,7 +34,7 @@ const Resume = () => {
         <a
           href="/files/resume.pdf"
           download
-                className="bg-black text-white px-8 text-semibold flex items-center justify-center py-1.5 rounded hover:bg-gray-800 transition"
+          className="bg-black text-white px-8 text-semibold flex items-center justify-center py-1.5 rounded hover:bg-gray-800 transition"
         >
           Download
         </a>

@@ -1,6 +1,7 @@
 import CapabilityStatement from "./CapabilityStatement";
 import Resume from "./Resume";
 import Training from "./Training";
+import WorkSample from "./WorkSample";
 
 const Artefacts = () => {
   const projects = [
@@ -69,11 +70,16 @@ const Artefacts = () => {
       <div>
         <div className="flex flex-col">
           <h1 className="text-3xl sm:text-3xl font-semibold mb-3 text-[#2e2e2e]">
-            Projects
+            Assignments
           </h1>
           <p className="text-base  sm:text-lg text-[#6f6f6f]">
-            These are some of the projects I completed during my master's
-            degree, where I achieved a High Distinction.
+            The assignments show the major projects I carried out as part of my
+            master’s degree, representing my use of critical thinking, research
+            and knowledge of healthcare. All of these projects were graded High
+            Distinction, indicating both quality in schoolwork and benefit in
+            the workplace. I demonstrate in these documents my analytical
+            skills, my communication abilities and how I use research-based
+            techniques.
           </p>
         </div>
         <div className="grid xl:grid-cols-2 mt-5 gap-x-10">
@@ -117,11 +123,13 @@ const Artefacts = () => {
       <div>
         <div className="  ">
           <h1 className="text-3xl sm:text-3xl text-[#2e2e2e] font-semibold mb-3">
-            Letter of recommendation
+            Recommendations
           </h1>
           <p className="text-base sm:text-lg text-[#6f6f6f]">
-            These letters of recommendation reflect my academic and professional
-            achievements, endorsed by mentors and supervisors.
+            The letters of recommendation show my academic progress and prove my
+            competence at work, personally confirmed by people who have worked
+            with me. The letters I receive confirm my skills, how hard I work
+            and how deeply committed I am to doing my best.
           </p>
         </div>
         {/* {recommendation.map((rec, idx) => (
@@ -198,12 +206,27 @@ const Artefacts = () => {
           ))}
         </div>
       </div>
-      <div className="flex flex-col gap-5">
+      {/* <div className="flex flex-col gap-5">
         <p className="font-semibold text-2xl sm:text-3xl text-[#2e2e2e]">
           Certifications
         </p>
+      </div> */}
+      <div className="  space-y-5">
+        <h1 className="text-3xl sm:text-3xl text-[#2e2e2e] font-semibold mb-3">
+          Training and Certifications
+        </h1>
+        <p className="text-base sm:text-lg text-[#6f6f6f]">
+          I have achieved several professional training programs that support me
+          in offering safe, patient-centered and evidence-based practice. These
+          certifications improved my competencies in infection control,
+          medication safety, manual handling, communication, and caring for
+          patients with various needs. Each program reflects my commitment to
+          ongoing learning and my willingness to respond to contemporary
+          healthcare demands with confidence and capability.
+        </p>
         <Training />
       </div>
+      <WorkSample />
     </div>
   );
 };
