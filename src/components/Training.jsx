@@ -10,6 +10,10 @@ const documents = [
     file: "/files/Muna Oli CHC43015 Certificate IV in Ageing Support 9385.pdf",
   },
   {
+    title: "HLTAID009 - Provide cardiopulmonary resuscitation",
+    file: "/files/CPR certificate .pdf",
+  },
+  {
     title: "Basic of Infection Prevention and control",
     file: "/files/basicsofinfectionpreventionandcontrol.pdf",
   },
