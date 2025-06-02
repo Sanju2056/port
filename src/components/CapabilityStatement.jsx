@@ -7,23 +7,37 @@ const CapabilityStatement = () => {
         Capability Statement
       </p>
       <p className="  text-base max-w-6xl px-3 sm:text-lg text-[#6f6f6f]">
-        I am Muna Oli, a dedicated registered nurse with over two years of
-        critical care experience in Nepal's ICUs and emergency departments, now
-        transferring my clinical expertise and caring approach to Australia's
-        aged care sector. Currently building my leadership capacity through a
-        Master of Health Science in Health Service Management at Western Sydney
-        University, I am well positioned to integrate hands-on patient care with
-        healthcare system improvement. My experience in heading the World Health
-        Organisation-approving Rheumatic Heart Disease Prevention Project and
-        managing aged care teams has also developed my expertise in
-        evidence-based practice, intercultural communication, and health program
-        development. With certification in emergency response and aged care
-        support, I combine clinical accuracy with strategic insight to provide
-        quality care while working to create systemic change. My intention is to
-        utilise my global experience and increasing knowledge in health
-        management to contribute to better patient outcomes and efficiency of
-        healthcare delivery systems, in line with the NMBA Code of Conduct and a
-        strong commitment to equitable, person-centered care
+        Having accomplished my studies in becoming a registered nurse in Nepal
+        with over two years' clinical and research experience, I have a sound
+        foundation in community health, emergency services, and health promotion
+        in public health. My migration to Australia and pursuing Master of
+        Health Science (Health Service Management) at Western Sydney University
+        reflects that I have an aspiration of progressing from bedside care to
+        population health and policy. I have acquired experience across diverse
+        contexts—ranging from rural health education programs and critical care
+        in Nepal to aged care and multicultural health services in New South
+        Wales. I engaged in a WHO-endorsed rheumatic heart disease prevention
+        project, collaborating with international partners to develop
+        sustainable, locally driven interventions. In Manav Sewa Ashram, I
+        helped marginalized communities of people with homeless and mentally ill
+        backgrounds, providing holistic and embracing care in needy
+        environments. As mentioned by Ambushe et al. (2023), holistic nursing
+        significantly enhances recovery and dignity among marginalized patients,
+        a belief which I have shared in Nepal as well as Australia too. My
+        practice aligns with the ethical framework of the Nursing and Midwifery
+        Board of Australia, which, according to NMBA (2018), emphasizes respect,
+        honesty, and culturally safe care. In Australia, I’ve gained insights
+        into the health needs of culturally and linguistically diverse (CALD)
+        groups—essential for equitable service delivery. According to Chauhan et
+        al. (2021), health services must proactively target CALD communities
+        using culturally responsive approaches, which I implement in my work of
+        aged care. As part of my postgraduate program, I implemented a health
+        promotion program among Aboriginal communities on diabetes literacy. In
+        alignment with the report submitted by the DiCAP (2024), the program
+        emphasized stakeholder mapping, culturally appropriate education, and
+        policy concordance. To enhance my digital competency, I continue to
+        enhance my comprehension of health informatics systems, as necessitated
+        by the Australian Digital Health Agency (Digital Health Literacy, n.d.).
       </p>
       <div className="flex     gap-5">
         <div className="flex flex-row gap-4 ">
