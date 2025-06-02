@@ -174,10 +174,10 @@ const images = [
     src: b,
     title: "Celebrating Mother's Day at Manavsewa Ashram, Nepal",
   },
-  {
-    src: c,
-    title: "Rheumatic Heart Research: Swab collection in Nepal",
-  },
+  // {
+  //   src: c,
+  //   title: "Rheumatic Heart Research: Swab collection in Nepal",
+  // },
   {
     src: d,
     title:
