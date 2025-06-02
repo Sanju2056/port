@@ -105,13 +105,13 @@
 //         Gallery{" "}
 //       </p>{" "}
 //       {/* <p className=" text-base sm:text-lg mb-10 text-[#6f6f6f]">
-//          My gallery showcases meaningful moments from health research, 
-//         community celebrations, and outreach efforts. It features snapshots 
-//         from swab collection drives in rural areas, festive Mother's Day 
-//         events at the ashram, and rescue missions providing care for the 
-//         homeless. Also included are glimpses of international initiatives, 
-//         such as a seminar held in Sydney, highlighting the ongoing commitment 
-//         to compassion and service. 
+//          My gallery showcases meaningful moments from health research,
+//         community celebrations, and outreach efforts. It features snapshots
+//         from swab collection drives in rural areas, festive Mother's Day
+//         events at the ashram, and rescue missions providing care for the
+//         homeless. Also included are glimpses of international initiatives,
+//         such as a seminar held in Sydney, highlighting the ongoing commitment
+//         to compassion and service.
 //       </p> */}
 //       <div className="flex flex-col md:flex-row gap-9">
 //         {/* Left column */}
@@ -163,7 +163,7 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-import { a, b, c, d, e } from "../assets"; // Adjust path
+import { a, b, c, d, e, f, g, h } from "../assets"; // Adjust path
 
 const images = [
   {
@@ -187,6 +187,21 @@ const images = [
     src: e,
     title: "Amma Seminar: Manavsewa Ashram's initiative in Sydney, Australia",
   },
+  {
+    src: f,
+    title:
+      "Compassion in Action: Rescuing and supporting a vulnerable individual in need, Manav Sewa Ashram, Nepal",
+  },
+  {
+    src: g,
+    title:
+      "Advancing Research: Data collection for Rheumatic Heart Disease study, Nepal",
+  },
+  {
+    src: h,
+    title:
+      "Health Education for Teachers: Preventing Communicable Diseases and Rheumatic Heart Disease at Tulsi Boarding School, Nepal",
+  },
 ];
 
 const Gallery = () => {
@@ -202,12 +217,12 @@ const Gallery = () => {
       <div className="block md:hidden mb-8">
         <p className="text-base font-medium text-[#3a3a3a] text-center">
           “ My gallery showcases meaningful moments from health research,
-          community celebrations, and outreach efforts. It features
-          snapshots from swab collection drives in rural areas, festive
-          Mother's Day events at the ashram, and rescue missions providing
-          care for the homeless. Also included are glimpses of international
-          initiatives, such as a seminar held in Sydney, highlighting the
-          ongoing commitment to compassion and service. ”
+          community celebrations, and outreach efforts. It features snapshots
+          from swab collection drives in rural areas, festive Mother's Day
+          events at the ashram, and rescue missions providing care for the
+          homeless. Also included are glimpses of international initiatives,
+          such as a seminar held in Sydney, highlighting the ongoing commitment
+          to compassion and service. ”
         </p>
       </div>
 
@@ -226,6 +241,14 @@ const Gallery = () => {
             image={images[3]}
             onClick={() => setSelectedImage(images[3])}
           />
+          <GalleryCard
+            image={images[5]}
+            onClick={() => setSelectedImage(images[5])}
+          />{" "}
+          <GalleryCard
+            image={images[6]}
+            onClick={() => setSelectedImage(images[6])}
+          />
         </div>
 
         {/* Right column */}
@@ -236,7 +259,8 @@ const Gallery = () => {
           />
 
           {/* Description for medium and up */}
-          <div className="hidden md:flex flex-1 items-center justify-center">
+          
+   <div className="hidden md:flex flex-1 items-center justify-center">
             <p className="text-base lg:text-xl font-medium text-[#3a3a3a] text-left">
               “ My gallery showcases meaningful moments from health research,
               community celebrations, and outreach efforts. It features
@@ -247,11 +271,17 @@ const Gallery = () => {
               ongoing commitment to compassion and service. ”
             </p>
           </div>
-
           <GalleryCard
             image={images[4]}
             onClick={() => setSelectedImage(images[4])}
           />
+       
+          <GalleryCard
+            image={images[7]}
+            onClick={() => setSelectedImage(images[7])}
+          />
+          <div className="flex-1"></div>
+        
         </div>
       </div>
 

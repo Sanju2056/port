@@ -4,5 +4,7 @@ import b from "./b.jpeg";
 import c from "./c.jpeg";
 import d from "./d.jpeg";
 import e from "./e.jpeg";
-
-export { PortfolioImage, a, b, c, d, e };
+import f from "./f.jpeg";
+import g from "./g.jpeg";
+import h from "./h.jpeg";
+export { PortfolioImage, a, b, c, d, e,f, g, h };

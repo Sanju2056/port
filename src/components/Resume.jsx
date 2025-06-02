@@ -88,7 +88,7 @@ const profile = {
       detail: "February 2024 – Present",
     },
     {
-      place: "Meanville Nursing Home by Hall and Prior, NSW, Australia",
+      place: "Menaville Nursing Home by Hall and Prior, NSW, Australia",
       detail: "March 2024 – Present (Team leader)",
       achievement:
         "May 2025 – Awarded Employee of the Month in recognition of outstanding performance, dedication to quality care, and leadership excellence",

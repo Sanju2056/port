@@ -35,8 +35,8 @@ const Artefacts = () => {
       // title: "Inselspital Recommendation ",
       projectName: "“Inselspital Recommendation Letter ”",
       linkLabel: "Preview",
-      link: "/files/recomendation.pdf",
-      file: "/files/recomendation.pdf",
+      link: "/files/Pasted image.png",
+      file: "/files/Pasted image.png",
     },
     {
       // title: "Manavsewa Ashram",
