@@ -3,18 +3,18 @@ import React from "react";
 
 // Updated work samples array
 export const workSamples = [
-  {
-    title: "Registered Nurse",
-    organization: "Nepal Nursing Council",
-    location: "Nepal",
-    registrationNo: "Registration Number: 65593",
-    date: "5th September, 2021",
-    link: "/files/nurse.jpeg",
-    role: "Registered Nurse",
-    responsibilities: [
-      "Licensed by the Nepal Nursing Council with Registration Number 65593.",
-    ],
-  },
+  // {
+  //   title: "Registered Nurse",
+  //   organization: "Nepal Nursing Council",
+  //   location: "Nepal",
+  //   registrationNo: "Registration Number: 65593",
+  //   date: "5th September, 2021",
+  //   link: "/files/nurse.jpeg",
+  //   role: "Registered Nurse",
+  //   responsibilities: [
+  //     "Licensed by the Nepal Nursing Council with Registration Number 65593.",
+  //   ],
+  // },
   {
     title: "ICU Nurse",
     organization: "Rapti Lifecare Hospital Private Limited",
