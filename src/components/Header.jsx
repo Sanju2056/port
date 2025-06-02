@@ -12,8 +12,8 @@ const NavBarData = [
   { title: "Artefacts", link: "/artefacts" },
   // { title: "Training", link: "/training" },
   // { title: "Work Sample", link: "/work-sample" },
-  { title: "Contact", link: "/contact" },
   { title: "Gallery", link: "/gallery" },
+  { title: "Contact", link: "/contact" },
 ];
 
 const Header = () => {
