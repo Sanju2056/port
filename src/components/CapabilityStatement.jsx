@@ -25,24 +25,22 @@ const CapabilityStatement = () => {
           holistic and embracing care in needy environments.
         </p>
         <p className="  text-base max-w-6xl sm:text-lg text-[#6f6f6f]">
-          As mentioned by Ambushe et al. (2023), holistic nursing significantly
-          enhances recovery and dignity among marginalised patients, a belief
-          which I have shared in Nepal as well as Australia too. My practice
-          aligns with the ethical framework of the Nursing and Midwifery Board
-          of Australia, which, according to NMBA (2018), emphasises respect,
-          honesty, and culturally safe care. In Australia, I’ve gained insights
-          into the health needs of culturally and linguistically diverse (CALD)
-          groups—essential for equitable service delivery. According to Chauhan
-          et al. (2021), health services must proactively target CALD
-          communities using culturally responsive approaches, which I implement
-          in my work of aged care. As part of my postgraduate program, I
-          implemented a health promotion program among Aboriginal communities on
-          diabetes literacy. In alignment with the report submitted by the DiCAP
-          (2024), the program emphasised stakeholder mapping, culturally
+          Holistic nursing significantly enhances recovery and dignity among
+          marginalised patients, a belief that I have shared in Nepal as well as
+          Australia. My practice aligns with the ethical framework of the
+          Nursing and Midwifery Board of Australia, which, according to NMBA,
+          emphasises respect, honesty, and culturally safe care. In Australia,
+          I’ve gained insights into the health needs of culturally and
+          linguistically diverse (CALD) groups—essential for equitable service
+          delivery. Health services must proactively target CALD communities
+          using culturally responsive approaches, which I implement in my work
+          in aged care. As part of my postgraduate program, I implemented a
+          health promotion program among Aboriginal communities on diabetes
+          literacy. The program emphasised stakeholder mapping, culturally
           appropriate education, and policy concordance. To enhance my digital
           competency, I continue to enhance my comprehension of health
           informatics systems, as necessitated by the Australian Digital Health
-          Agency (Digital Health Literacy, n.d.).
+          Agency.
         </p>
       </div>
       <div className="flex     gap-5">

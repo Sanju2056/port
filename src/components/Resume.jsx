@@ -100,6 +100,7 @@ const profile = {
 const Resume = () => {
   return (
     <div className="flex container py-10 lg:py-20 flex-col justify-center text-center px-10  items-center gap-4">
+      
       <p className="font-semibold text-3xl text-[#2e2e2e] md:text-4xl">
         Resume
       </p>

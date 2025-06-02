@@ -5,105 +5,62 @@ import React from "react";
 export const workSamples = [
   {
     title: "Registered Nurse",
-    organization: "College of Medical Sciences",
-    location: "Bharatpur, Bagmati, Nepal",
-    registrationNo: "Nepal Nursing Council No: 65593",
-    role: "ICU Nurse",
-    date: "April 2022 – May 2023",
-    responsibilities: [
-      "Applied critical thinking abilities to constantly observe and evaluate patients' physical, mental, and emotional condition, intervening promptly when circumstances altered.",
-      "Communicated abnormal findings efficiently to multidisciplinary teams to facilitate prompt clinical decisions.",
-      "Organised patient transport for procedures, facilitating smooth communication among departments.",
-      "Maintained ideal levels of inventory in treatment and triage areas to facilitate continuous care provision.",
-      "Evaluated patient outcomes in order to facilitate continuous quality improvement activities.",
-      "Immunisations were given, including measles, pneumonia, and flu, hence promoting preventive health measures.",
-      "Provided ample education and discharge teaching to patients and families, enhancing home care and recuperation.",
-      "Managed postoperative and critically ill patients with scrupulous attention.",
-      "Worked in liaison with senior nursing staff to achieve increased clinical competencies and knowledge.",
-    ],
+    organization: "Nepal Nursing Council",
+    location: "Nepal",
+    registrationNo: "Registration Number: 65593",
+    date: "5th September, 2021",
     link: "/files/nurse.jpeg",
+    role: "Registered Nurse",
+    responsibilities: [
+      "Licensed by the Nepal Nursing Council with Registration Number 65593.",
+    ],
   },
-  // {
-  //   title: "Assistant in Nursing",
-  //   organization: "Mark Moran Little Bay",
-  //   location: "Little Bay, NSW",
-  //   date: "May 2023 – Present",
-  //   responsibilities: [
-  //     "Provided bedside care: bathing, grooming, feeding, toileting, and mobility assistance.",
-  //     "Offered emotional and physical support during daily routines.",
-  //     "Maintained detailed patient records and reported health changes to supervisors.",
-  //     "Fostered meaningful patient relationships through empathetic communication.",
-  //   ],
-  // },
-  // {
-  //   title: "Assistant in Nursing",
-  //   organization: "Anglicare Dorothy Boyt House",
-  //   location: "Malabar, NSW",
-  //   date: "June 2024 – Present",
-  //   responsibilities: [
-  //     "Delivered personal care including hygiene, grooming, dressing, and feeding.",
-  //     "Supported therapy plans for dementia and behavioral intervention.",
-  //     "Promoted high-quality customer service and compassionate communication.",
-  //   ],
-  // },
   {
     title: "ICU Nurse",
-    organization: "Rapti Lifecare Hospital Pvt Ltd",
+    organization: "Rapti Lifecare Hospital Private Limited",
     location: "Dang, Nepal",
     date: "April 2023 – October 2023",
+    link: "/files/rapti.jpeg",
     responsibilities: [
       "Collaborated in close association with cross-functional teams to develop and execute personalised patient care plans.",
       "Monitored and documented patient condition, administering treatments as per clinical protocol.",
       "Provided compassionate emotional and psychological support to relatives and patients during periods of critical care.",
+      "Applied critical thinking abilities to constantly observe and evaluate patients' physical, mental, and emotional condition, intervening promptly when circumstances altered.",
+      "Communicated abnormal findings efficiently to multidisciplinary teams to facilitate prompt clinical decisions.",
+      "Provided ample education and discharge teaching to patients and families, enhancing home care and recuperation.",
     ],
-    link: "/files/rapti.jpeg",
   },
   {
     title: "BSc Nursing Staff",
     organization: "Tulsi Hospital Pvt Ltd",
     location: "Dang, Nepal",
     date: "April 2022 – April 2023",
+    link: "/files/tulsi.jpeg",
     responsibilities: [
       "Worked as a school nurse and in the Emergency Department participating in community health programs.",
       "Participated in the Rheumatic Heart Disease Control Project in liaison with the University of Bern.",
       "Planned and implemented health workshops, medical screening, and public sensitisation campaigns to ensure the community remained healthy.",
+      "Organised patient transport for procedures, facilitating smooth communication among departments.",
+      "Maintained ideal levels of inventory in treatment and triage areas to facilitate continuous care provision.",
+      "Evaluated patient outcomes in order to facilitate continuous quality improvement activities.",
+      "Administered immunisations including measles, pneumonia, and flu, promoting preventive health measures.",
     ],
-    link: "/files/tulsi.jpeg",
   },
   {
     title: "ICU Nurse",
     organization: "Buddha International Hospital",
     location: "Dang, Nepal",
     date: "September 2021 – March 2022",
+    link: "/files/buddha.jpeg",
     responsibilities: [
       "Provided critical care including life support, monitoring of patients, and emergency intervention.",
       "Evaluated laboratory results and response to therapy to modify care plans for best patient outcomes.",
+      "Managed postoperative and critically ill patients with scrupulous attention.",
+      "Worked in liaison with senior nursing staff to achieve increased clinical competencies and knowledge.",
     ],
-    link: "/files/buddha.jpeg",
   },
-  // {
-  //   title: "Professional Experience – Australia",
-  //   experiences: [
-  //     {
-  //       organization: "Advance Care Agency",
-  //       location: "NSW, Australia",
-  //       date: "February 2024 – Present",
-  //     },
-  //     {
-  //       organization: "Meanville Nursing Home by Hall & Prior",
-  //       location: "NSW, Australia",
-  //       date: "March 2024 – Present",
-  //       role: "Team Leader",
-  //       note: "May 2025 – Awarded Employee of the Month",
-  //     },
-  //     {
-  //       organization: "Opal Aged Care – Annandale Grove Care Community",
-  //       location: "NSW, Australia",
-  //       date: "Completed 120 Hours of Clinical Placement",
-  //     },
-  //   ],
-  // },
 ];
+
 
 const WorkSample = () => {
   return (
@@ -130,11 +87,11 @@ const WorkSample = () => {
             )}
 
             {sample.role && (
-              <p className="text-sm text-[#6f6f6f]">Role: {sample.role}</p>
+              <p className=" text-[#2e2e2e] ">Role: {sample.role}</p>
             )}
 
             {sample.registrationNo && (
-              <p className="text-sm text-[#6f6f6f]">
+              <p className=" text-[#2e2e2e] ">
                 Registration: {sample.registrationNo}
               </p>
             )}

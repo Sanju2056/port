@@ -1,3 +1,4 @@
+import Image from "next/image";
 import CapabilityStatement from "./CapabilityStatement";
 import Resume from "./Resume";
 import Training from "./Training";
@@ -54,7 +55,7 @@ const Artefacts = () => {
   ];
   return (
     <div className="py-20 flex flex-col gap-14  md:gap-24 container ">
-      <div className="flex flex-col text-center gap-5">
+      {/* <div className="flex flex-col text-center gap-5">
         <h1 className="text-2xl sm:text-4xl font-semibold  text-[#2e2e2e]">
           My Works
         </h1>
@@ -64,6 +65,59 @@ const Artefacts = () => {
           followed by a capability statement, selected assessment artefacts, and
           concluding with relevant certificates.”
         </p>
+      </div> */}
+      <div>
+        
+        <div className="flex flex-col md:flex-row w-full gap-10  rounded-lg">
+          {/* Left Section: Nurse Info */}
+          <div className="flex-1 flex justify-center flex-col items-center rounded-lg ">
+            <h1 className="text-3xl sm:text-3xl font-semibold mb-3 text-[#2e2e2e]">
+          Registration
+        </h1>
+            <p className="text-gray-600 text-base sm:text-lg ">
+              Registered Nurse
+            </p>
+            <p className="text-gray-600 text-base sm:text-lg">
+              Registration: Nepal Nursing Council
+            </p>
+            <p className="text-gray-600 text-base sm:text-lg">
+              Registration Number: 65593
+            </p>
+            <p className="text-gray-600 text-base sm:text-lg">
+              Date: 5th September, 2021
+            </p>
+          </div>
+
+          {/* Right Section: Preview and Download */}
+          <div className="w-full flex-1 flex-col justify-center items-center ">
+            <div className="w-full max-w-[500px] rounded overflow-hidden border border-gray-300 shadow-md">
+              <Image
+                src="/files/nurse.jpeg" // or "/images/nurse.jpeg" depending on your structure
+                alt="Nursing Certificate"
+                width={1000}
+                height={1400}
+                className="w-full h-auto object-contain"
+              />
+            </div>
+            <div className="flex justify-center   items-center gap-4 mt-5">
+              <a
+                href="/files/nurse.jpeg"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-700 underline text-semibold py-2"
+              >
+                Preview
+              </a>
+              <a
+                href="/files/nurse.jpeg"
+                download
+                className="bg-black text-white px-8 text-semibold flex items-center justify-center py-1.5 rounded hover:bg-gray-800 transition"
+              >
+                Download
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
       {/* <Resume />
       <CapabilityStatement /> */}
@@ -240,33 +294,33 @@ const Artefacts = () => {
           have used these skills in seminars, health education workshops, and
           group project presentations.
         </p>
-       <div className="flex flex-row gap-4 items-center">
-        {/* Preview button opens PDF in new tab */}
-        <a
-          href="/files/Final Presentation of leadership.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-700 underline text-semibold py-2"
-        >
-          Preview
-        </a>
+        <div className="flex flex-row gap-4 items-center">
+          {/* Preview button opens PDF in new tab */}
+          <a
+            href="/files/Final Presentation of leadership.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-700 underline text-semibold py-2"
+          >
+            Preview
+          </a>
 
-        {/* Download button */}
-        <a
-          href="/files/Final Presentation of leadership.pdf"
-          download
-          className="bg-black text-white px-8 text-semibold flex items-center justify-center py-1.5 rounded hover:bg-gray-800 transition"
-        >
-          Download
-        </a>
-      </div>
-      <div className=" mt-5 ">
-        <iframe
-          src="/files/Final Presentation of leadership.pdf"
-          className="md:w-[600px] h-[800px] lg:w-[900px] rounded"
-          // title={doc.title}
-        ></iframe>
-      </div>
+          {/* Download button */}
+          <a
+            href="/files/Final Presentation of leadership.pdf"
+            download
+            className="bg-black text-white px-8 text-semibold flex items-center justify-center py-1.5 rounded hover:bg-gray-800 transition"
+          >
+            Download
+          </a>
+        </div>
+        <div className=" mt-5 ">
+          <iframe
+            src="/files/Final Presentation of leadership.pdf"
+            className="md:w-[600px] h-[800px] lg:w-[900px] rounded"
+            // title={doc.title}
+          ></iframe>
+        </div>
       </div>
     </div>
   );
