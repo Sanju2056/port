@@ -234,10 +234,6 @@ const Gallery = () => {
             onClick={() => setSelectedImage(images[0])}
           />
           <GalleryCard
-            image={images[2]}
-            onClick={() => setSelectedImage(images[2])}
-          />
-          <GalleryCard
             image={images[3]}
             onClick={() => setSelectedImage(images[3])}
           />
@@ -259,8 +255,8 @@ const Gallery = () => {
           />
 
           {/* Description for medium and up */}
-          
-   <div className="hidden md:flex flex-1 items-center justify-center">
+
+          <div className="hidden md:flex h-[500px] py-10 items-center justify-center">
             <p className="text-base lg:text-xl font-medium text-[#3a3a3a] text-left">
               “ My gallery showcases meaningful moments from health research,
               community celebrations, and outreach efforts. It features
@@ -275,13 +271,11 @@ const Gallery = () => {
             image={images[4]}
             onClick={() => setSelectedImage(images[4])}
           />
-       
+
           <GalleryCard
-            image={images[7]}
-            onClick={() => setSelectedImage(images[7])}
+            image={images[2]}
+            onClick={() => setSelectedImage(images[2])}
           />
-          <div className="flex-1"></div>
-        
         </div>
       </div>
 
@@ -325,15 +319,15 @@ const GalleryCard = ({ image, onClick }) => (
   >
     <div className="w-full h-96 overflow-hidden rounded-lg">
       <Image
-        src={image.src}
-        alt={image.title}
+        src={image?.src}
+        alt={image?.title}
         width={650}
         height={550}
         className="w-full h-full object-cover"
       />
     </div>
     <p className="text-sm md:text-lg font-medium text-center text-gray-700">
-      {image.title}
+      {image?.title}
     </p>
   </div>
 );
