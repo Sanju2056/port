@@ -2,6 +2,14 @@ import React from "react";
 
 const documents = [
   {
+    title: "Recognising and Acting on Pain",
+    file: "/files/138_12_38468_1745301668_DTA Course Certificate _C-H.pdf",
+  },
+  {
+    title: "CHC43015 Certificate IV in Ageing Support",
+    file: "/files/Muna Oli CHC43015 Certificate IV in Ageing Support 9385.pdf",
+  },
+  {
     title: "Basic of Infection Prevention and control",
     file: "/files/basicsofinfectionpreventionandcontrol.pdf",
   },
@@ -13,10 +21,7 @@ const documents = [
     title: "ACA - Manual Handling Part 1",
     file: "/files/certification-ACA---Manual-Handling-Part-1-olimuna53 2.pdf",
   },
-  {
-    title: "Staff Handbook",
-    file: "/files/certification-Staff-Handbook-olimuna53.pdf",
-  },
+
   {
     title: "New Worker NDIS Induction Module",
     file: "/files/New_Worker__NDIS_Induction_Module_Completion_Certificate.pdf",
